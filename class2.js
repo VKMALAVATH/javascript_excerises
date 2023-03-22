@@ -39,3 +39,18 @@ function average (num1, num2){
 }
 var test = average(4,6)
 console.log(test)
+
+// Write a function called "computeAreaOfATriangle".
+// Given the base and height of a triangle, "computeAreaOfATriangle" returns its area.
+// var output = computeAreaOfATriangle(4, 6);
+// console.log(output); // --> 12
+
+
+function computeAreaOfATriangle(base, height) {
+    return (base*height)/2;
+
+
+}
+var area = computeAreaOfATriangle(4,6)
+console.log(area)
+
