@@ -7,4 +7,24 @@ function isLessThan (num1, num2 ){
 
 }
 var output =isLessThan(9,4)
+// console.log(output)
+
+
+// Write a function called "isOddLength".
+// Given a word, "isOddLength" returns whether the length of the given word is odd.
+// var output = isOddLength('special');
+// console.log(output); // --> true
+
+//function definition
+
+function  isOddLength(word) {
+    // is even check condition modulo
+    return word.length % 2 !== 0
+    
+}
+var output = isOddLength("vinod")
 console.log(output)
+var out = isOddLength("vinodk")
+console.log(out)
+var data = isOddLength("")
+console.log(data)
