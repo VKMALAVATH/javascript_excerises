@@ -12,3 +12,15 @@ function stringLength(string){
 
 }
 console.log("string length is",stringLength("biigfdthfasdjkldsjk"));
+
+// swaping the values 
+ let value1 = 'one'
+ let value2 ='two'
+  console.log("original value is",value1)
+  console.log("original value is ", value2)
+  // swap
+   let value3 = value1;
+   value1 = value2;
+   value2 = value3;
+   console.log("swap",value1);
+   console.log('swap', value2);
