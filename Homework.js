@@ -34,7 +34,7 @@ function isGreaterThan10(num) {
     // Finally, printing the value of the "output" variable to the console using the "console.log" function.
     console.log(output)
 
-
+ 
 
 //4. Defining a function named "isLessThan" which takes two parameters "number1" and "number2".
 function isLessThan(number1, number2){
@@ -65,3 +65,8 @@ return num1==num2;
 var output = isEqualTo(11, 10);
 // Printing the value of the "output" variable to the console.
 console.log(output);
+
+
+function showLength(array){
+    return array.length
+}
