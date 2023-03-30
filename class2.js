@@ -54,3 +54,16 @@ function computeAreaOfATriangle(base, height) {
 var area = computeAreaOfATriangle(4,6)
 console.log(area)
 
+// Write a function called "computePerimeteOfATriangle".
+// Given the base and height of a triangle, "computeAreaOfATriangle" returns its area.
+// var output = computeAreaOfATriangle(4, 6, 3);
+// console.log(output); // --> 13
+
+function computePerimeteOfATriangle(side1, side2, side3){
+    return (side1+side2+side3)
+
+}
+var perimeter = computePerimeteOfATriangle(4,6,3)
+console.log(perimeter);
+
+
