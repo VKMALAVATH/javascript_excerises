@@ -46,7 +46,13 @@ console.log(getLengthOfThreeWords('some', 'other', 'words'))
 // Write a function to return substr of a string given a string with a given length
 // console.log(getSubStr(“badminton”,3))
 
+
 // Write a function called "computeTripledAreaOfARectangle".
 // Given a length and width of a rectangle, "computeTripledAreaOfARectangle" returns the rectangle's area, multiplied by 3.
 // var output = computeTripledAreaOfARectangle(2, 4);
 // console.log(output); // --> 24
+function computeTripledAreaOfARectangle(length,width){
+    return length*width*3
+
+}
+console.log(computeTripledAreaOfARectangle(2,4))
