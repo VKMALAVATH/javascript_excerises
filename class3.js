@@ -28,6 +28,10 @@ console.log(computePower(2,3))
 // var output = computeSquareRoot(9);
 // console.log(output); // --> 3
 
+function computeSquareRoot(number){
+    return Math.sqrt(number)
+}
+console.log(computeSquareRoot(9))
 
 // Write a function called "getLengthOfThreeWords".
 // Given 3 words, "getLengthOfThreeWords" returns the sum of their lengths.
